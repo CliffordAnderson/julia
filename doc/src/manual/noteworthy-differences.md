@@ -56,7 +56,7 @@ may trip up Julia users accustomed to MATLAB:
     equivalent to `fft(A,1)`, which computes a 1D FFT acting column-wise.
   * In Julia, parentheses must be used to call a function with zero arguments, like in [`tic()`](@ref)
     and [`toc()`](@ref).
-  * Julia discourages the used of semicolons to end statements. The results of statements are not
+  * Julia discourages the use of semicolons to end statements. The results of statements are not
     automatically printed (except at the interactive prompt), and lines of code do not need to end
     with semicolons. [`println()`](@ref) or [`@printf()`](@ref) can be used to print specific output.
   * In Julia, if `A` and `B` are arrays, logical comparison operations like `A == B` do not return
